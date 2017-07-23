@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, input, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* Define Custom Variables Here */
+/* Default Variables */
+/* main font family */
+/* rgba color with opacity */
+/* main width of wrapper */
+/* height of footer */
+/* sets text color for input fields */
+/* sets the number of columns in the grid */
+/* sets padding for columns */
+/* Default Styles */
+html { height: 100%; }
+
+body { height: 100%; font-family: helvetica; }
+
+.bodyWrap { min-height: 100%; position: relative; }
+
+::-moz-selection { background: rgba(0, 0, 0, 0.6); }
+
+::selection { background: rgba(0, 0, 0, 0.6); }
+
+.wrap { width: 1280px; margin: auto; }
+
+.clear { clear: both; }
+
+.fullWidth, footer { width: 100%; min-width: 1280px; }
+
+.beforeFooter { padding-bottom: 100px; clear: both; }
+
+/* Convert px to rem */
+/* Float */
+.left { float: left; }
+
+.right { float: right; }
+
+/* Text Align */
+.textLeft { text-align: left; }
+
+.textCenter { text-align: center; }
+
+.textRight { text-align: right; }
+
+.textJust { text-align: justify; }
+
+/* Position */
+.fixed { position: fixed; }
+
+.relative { position: relative; }
+
+.absolute { position: absolute; }
+
+/* Display */
+.hide, .mobile { display: none; }
+
+.block, .desktop { display: block; }
+
+.inline { display: inline; }
+
+.inlineBlock { display: inline-block; }
+
+/* Font Weight */
+.bold, strong { font-weight: bold; }
+
+.regular { font-weight: normal; }
+
+.italic, em { font-style: italic; }
+
+/* Responsive Element -- Good for making perfect squares or circles */
+.element { position: relative; }
+
+.element:after { content: ''; display: block; padding-top: 100%; }
+
+/* Responsive Iframe, Object, Embed */
+.videoContainer { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.videoContainer iframe, .videoContainer object, .videoContainer embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Full Width Image (requires width and height) */
+.fullImg { position: relative; overflow: hidden; }
+.fullImg img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); margin: auto; min-width: 100%; min-height: 100%; }
+
+/* Grid */
+.col1 { width: 8.33333%; }
+
+.col2 { width: 16.66667%; }
+
+.col3 { width: 25%; }
+
+.col4 { width: 33.33333%; }
+
+.col5 { width: 41.66667%; }
+
+.col6 { width: 50%; }
+
+.col7 { width: 58.33333%; }
+
+.col8 { width: 66.66667%; }
+
+.col9 { width: 75%; }
+
+.col10 { width: 83.33333%; }
+
+.col11 { width: 91.66667%; }
+
+.col12 { width: 100%; }
+
+[class*="col"] { float: left; -webkit-box-sizing: border-box; box-sizing: border-box; min-height: 1px; }
+
+.pad { padding: 10px; }
+
+/* Typography */
+a { text-decoration: none; }
+
+h1 { font-size: 40px; font-size: 2.5rem; line-height: 45px; line-height: 2.8125rem; }
+
+h2 { font-size: 30px; font-size: 1.875rem; line-height: 35px; line-height: 2.1875rem; }
+
+h3 { font-size: 20px; font-size: 1.25rem; line-height: 25px; line-height: 1.5625rem; }
+
+h4 { font-size: 18px; font-size: 1.125rem; line-height: 23px; line-height: 1.4375rem; }
+
+p { font-size: 16px; font-size: 1rem; line-height: 21px; line-height: 1.3125rem; }
+
+/* Input Styles */
+form, input { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+input::-webkit-input-placeholder { color: #000; }
+
+input:-moz-placeholder { color: #000; opacity: 1; }
+
+input::-moz-placeholder { color: #000; opacity: 1; }
+
+input:-ms-input-placeholder { color: #000; }
+
+input:placeholder-shown { color: #000; }
+
+footer { position: absolute; bottom: 0; height: 100px; }
+
+/* Mobile Styles */
+@media screen and (max-width: 1280px) { .desktop { display: none; }
+  .mobile { display: block; }
+  /* Turns "Stacked" Text Into One Line */
+  .linebreak br { content: ' '; }
+  .linebreak br:after { content: ' '; } }
+
+/*# sourceMappingURL=style.css.map */
